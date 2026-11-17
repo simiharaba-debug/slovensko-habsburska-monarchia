@@ -420,3 +420,74 @@ strong{font-weight:700;color:var(--ink)}
 }
 
 .q-fig .img-fallback{position:relative;min-height:180px}
+
+/* ===== Doladenie veľkostí: počítač + mobil ===== */
+.split .fig .fig-img{max-height:460px}
+.fig.wide .fig-img{max-height:440px}
+.fig.portrait,.fig.tall{max-width:420px;margin-inline:auto}
+.split .fig.portrait,.split .fig.tall{width:100%}
+.fig.narrow{max-width:460px}
+@media (max-width:860px){
+  :root{--header:60px}
+  body{font-size:16px;line-height:1.6}
+  h1{font-size:2.1rem} h2{font-size:1.6rem} h3{font-size:1.2rem}
+  .hero{min-height:auto}
+  .hero h1{font-size:2.4rem}
+  .lead{font-size:1.02rem}
+  .page-hero{min-height:340px}
+  .page-hero.small{min-height:260px}
+  .page-hero-inner{padding:4.5rem 0 2rem}
+  .content{padding:2rem 0 1rem}
+  .block{margin-bottom:2.8rem}
+  .block>h2{gap:.6rem}
+  .h-num{width:2.1rem;height:2.1rem;font-size:1.05rem;border-radius:10px}
+  .card{padding:1.1rem 1.15rem}
+  .card h3{font-size:1.15rem}
+  .card p,.timeline li>div,.facts li,.side li,.uprising p{font-size:.94rem}
+  .card-ico{width:40px;height:40px;margin-bottom:.6rem}
+  .card-ico .ico{width:22px;height:22px}
+  .fig-img,.fig.tall .fig-img,.fig.portrait .fig-img,.fig.wide .fig-img{aspect-ratio:16/10;max-height:240px}
+  .fig.portrait,.fig.tall,.fig.narrow{max-width:100%}
+  .fig figcaption{padding:.6rem .85rem .7rem;font-size:.85rem}
+  .split{gap:1.4rem;margin:1rem 0}
+  .verse{font-size:1.1rem;padding:1.5rem 1.2rem;margin-bottom:2.5rem}
+  .highlight-date{padding:1rem 1.1rem}
+  .highlight-date span{font-size:1.6rem}
+  .peace{padding:1.5rem 1.3rem;gap:.6rem}
+  .peace-year{font-size:2.8rem}
+  .feature{padding:1.5rem 1.2rem}
+  .quote{font-size:1.25rem}
+  .stats strong{font-size:2rem}
+  .stats div{padding:1rem .8rem}
+  .section{padding:3rem 0}
+  .band{padding:3rem 0}
+  .topic-img{aspect-ratio:16/9}
+  .topic-body{padding:1.1rem 1.2rem 1.3rem}
+  .quiz-card{margin-top:-4rem}
+  .q-question{font-size:1.35rem}
+  .q-fig img{max-height:190px}
+  .q-opt{padding:.75rem .85rem;font-size:.95rem;gap:.7rem}
+  .q-opt .q-letter{width:2rem;height:2rem}
+  .ring{width:150px;height:150px}
+  .ring-txt strong{font-size:2.8rem}
+  .person{padding:1rem}
+  .avatar{width:50px;height:50px;font-size:.95rem}
+  .rebels span{font-size:1.5rem}
+  .pager-link strong{font-size:1.1rem}
+  .pager-link{padding:.9rem 1rem}
+  .qt-icon{width:64px;height:64px}
+}
+@media (max-width:420px){
+  .wrap{width:calc(100% - 1.6rem)}
+  .hero h1{font-size:2.05rem}
+  h1{font-size:1.85rem}
+  .stats span{font-size:.8rem}
+  .fig-img,.fig.tall .fig-img,.fig.portrait .fig-img,.fig.wide .fig-img{max-height:210px}
+  .people,.rulers{grid-template-columns:1fr 1fr}
+  .ruler strong{font-size:1.1rem}
+}
+.fig-img{width:100%}
+@media (max-width:860px){
+  .verse{padding-top:2.4rem}
+  .verse::before{font-size:4.5rem;top:-1rem}
+}
