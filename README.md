@@ -7,7 +7,7 @@ fotografie pochádzajú z Wikimedia Commons (zoznam s autormi a licenciami je na
 ## Štruktúra
 - `site/` – hotová statická stránka (HTML, CSS, JS)
 - `build/` – Python skript, ktorý generuje HTML stránky z obsahu (`content.py`, `quiz.py`, `images.py`)
-- `.github/workflows/pages.yml` – automatické nasadenie na GitHub Pages pri každom pushi do `main`
+- `.github/workflows/pages.yml` – pri každom pushi do `main` zostaví web a publikuje ho do vetvy `gh-pages` (GitHub Pages)
 
 ## Lokálne spustenie
 ```bash
