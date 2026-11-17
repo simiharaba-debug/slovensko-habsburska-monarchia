@@ -17,7 +17,6 @@ body="""
     <div>
       <p>Turkické kmene od <strong>Kaspického mora</strong> vpadli na Blízky východ a do Byzancie už v <strong>11. storočí</strong> – boli to <strong>Seldžuckí Turci</strong>. Ich príbuzní sa usadili južne od Carihradu v meste <strong>Bursa</strong>.</p>
       <p>Koncom <strong>13. storočia</strong> založil ich vodca <strong>Osman I.</strong> novú dynastiu – podľa neho dostala ríša meno <strong>Osmanská ríša</strong>.</p>
-      <div class="callout"><span class="callout-ico">i</span><div><strong>Pre študentov:</strong> materiál upozorňuje, že k tejto téme si treba povinne naštudovať aj prezentáciu v angličtine.</div></div>
     </div>
     [[fig:devsirme|tall]]
   </div>
